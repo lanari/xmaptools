@@ -1,0 +1,87 @@
+!- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+!                                                               !
+!                    XMAPTOOLS Default File                     !
+!             Last update (11.12.2013), Marco Burn              !
+!                                                               !
+!- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+! 
+! Element / element / Oxide / OXIDE
+! EDIT WITH CAUTION (No empty line without the comment symbol (!)
+!
+!
+Na  na  Na2O    NA2O
+Mg  mg  MgO     MGO
+Al  al  Al2O3   AL2O3
+Si  si  SiO2    SIO2
+P   p   P2O5    P2O5
+S   s   SO2     SO2
+F   f   FO2     FO2
+Cl  cl  Cl2O    CL2O
+K   k   K2O     K2O
+Ca  ca  CaO     CAO
+Ti  ti  TiO2    TIO2
+V   v   V2O5    V2O5
+Cr  cr  Cr2O3   CR2O3
+Mn  mn  MnO     MNO
+Fe  fe  FeO     Fe2O3
+Co  co  CoO     COO
+Ni  ni  NiO     NIO
+Cu  cu  CuO     CUO
+Zn  zn  ZnO     ZNO
+Zr  zr  ZrO2    ZRO2
+Ag  ag  AgO     AGO
+Cd  cd  CdO     CDO
+Sn  sn  SnO2    SNO2
+Ce  ce  Ce2O3   CE2O3
+As  as  As2O5   AS2O5
+Sb  sb  Sb2O3   SB2O3
+Cs  cs  Cs2O    CS2O
+La  la  La2O3   La2O3
+Nd  nd  Nd2O3   NdO2
+Pb  pb  PbO     PBO
+Sr  sr  SrO     SRO
+Th  sr  ThO2    THO2
+U   u   UO2     UO2
+Yt  yt  Y2O3    Y2O3
+!Yt is Y (must be different that 'Y' coordinate)
+Sm  sm  Sm2O3   SM2O3
+Gd  gd  Gd2O3   GD2O3
+Dy  dy  Dy2O3   DY2O3
+Pr  pr  Pr2O3   PR2O3
+!
+! The following oxides are available to load standardized X-ray maps.
+! The function TTQuanti (Transfert to Quanti) can be used to transfert
+!     the data from the X-ray to the Quanti parts. 
+!
+! We used _s because this name will be unused (correspondance with std name of elements).
+!
+SiO2    sio2    SiO2_s    SIO2_s
+TiO2    tio2    TiO2_s    TIO2_s
+Al2O3   al2o3   Al2O3_s   AL2O3_s
+FeO     feo     FeO_s     FEO_s
+MnO     mno     MnO_s     MNO_s
+MgO     mgo     MgO_s     MGO_s
+CaO     cao     CaO_s     CAO_s
+Na2O    na2o    Na2O_s    NA2O_s
+K2O     k2o     K2O_s     K2O_s
+!
+! The following elements are for metaloids.
+!     - Fe_m is X-ray data for Fe metal [Name of X-ray images].
+!     - Fe_ms is Fe metal standardized (Wt% of Fe) [Name of elements for the point analyses].
+! 
+Fe_m    fe_m    Fe_ms   FE_MS
+Cu_m    cu_m    Cu_ms   CU_MS
+!
+! The following labels are for the BSE, SEI and TOPO images
+! They should not be standardized but they can be trasnfered to Quanti and Result
+!      using TTQuanti button. 
+! 
+BSE     bse     BSE_s   BSE_s
+SEI     sei     SEI_s   SEI_s
+TOPO    topo    TOPO_s  TOPO_s
+
+
+
+
+
+

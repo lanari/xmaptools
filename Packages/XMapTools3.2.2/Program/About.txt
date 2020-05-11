@@ -1,0 +1,74 @@
+
+XMapTools was created and is maintained by Dr. Pierre Lanari
+
+Contact: pierre.lanari@geo.unibe.ch
+Website: https://www.xmaptools.com/
+
+
+  -----------------------------------------------------
+ |  XMapTools version 3.2.2  -  Released on 27.09.2019 |
+  -----------------------------------------------------
+
+This XMapTools 3.2.2 update is strongly recommended for all users and contains several new features as well as improvements to stability and compatibility. This update:
+
+- Add a new feature to the standardization function Manual (homogeneous phase) to detect cases for which the median position does not match the peak position of the distribution. Note that a warning is displayed in the Command windows if a mismatch is observed for an element and the corresponding figure saved in Standardization/
+- Provide an improved mask image using the selected color palette. Note that the colour of the mask image is automatically adjusted if the color scheme is changed via the left menu
+- Provide a scale bar and the XMapTools’ logo on the exported mask image
+- Add an option to filter NaN out when importing a map via the Import Tool
+- Improve the compatibility of the external functions
+- Make the precision maps compatible with the color palette module
+
+Other changes:  
+
+- Fix an issue in the interface of XMapTools 3.2.1 that did not work normally on some WINDOWS computers 
+- Fix an issue preventing in some instances to delete the selected mask file
+- A few button/functionality names in the module Binary were slightly adjusted
+- The name of a calibrated map and the merge map are now set automatically and can be edited in the workspace Quanti 
+- Additional bug fixes
+
+Use of this software is subject to the original Software License Agreement that accompanied the software being updated. 
+
+For more details information regarding XMapTools, please visit 
+http://www.xmaptools.com or contact pierre.lanari@geo.unibe.ch
+
+
+- - - - - - -
+ DESCRIPTION
+- - - - - - -
+
+XMapTools provides advanced numerical tools in a guided environment to explore and visualise your data in your own way. It incorporates a large variety of options for data processing, data calibration and data visualisation via single and multi-channel maps or via binary, ternary and spider diagrams. Find out more at: https://www.xmaptools.com/
+
+
+- - - - - -
+ CITATION
+- - - - - -
+Please use the following citations in your publications when you refer to XMapTools. The version of the program should be specified just after the name, e.g. Mapping data were processed using XMapTools 3.1.1 (Lanari et al. 2014; 2018).
+
+Please use at least one of the official XMapTools logo in your talk / poster along with the references while images have been generated using XMapTools.
+
+Main software references:
+(2) Lanari, P., Vho, A., Bovay, T., Airaghi, L., Centrella, S., (2018). Quantitative compositional mapping of mineral phases by electron probe micro-analyser. Geological Society of London Special Publication, DOI:10.1144/SP478.4
+(1) Lanari, P., Vidal, O., De Andrade, V., Dubacq, B., Lewin, E., Grosch, E., Schwartz, S. (2014) XMapTools: a MATLAB??-based program for electron microprobe X-ray image processing and geothermobarometry. Computers and Geosciences. 62, 227-240.
+
+Software references for specific tools/applications:
+- Trace element mapping: Raimondo, T., Payne, J., Wade, B., Lanari, P., Clark, C., Hand, M., (2017). Trace element mapping by LA-ICP-MS: assessing geochemical mobility in garnet. Contributions to Mineralogy and Petrology, 172, 17.
+- Local bulk composition and density correction: Lanari, P., & Engi, M. (2017). Local bulk composition effects on metamorphic mineral assemblages, Reviews in Mineralogy and Geochemistry, 83, 55-102.
+- Density maps: Centrella, S., Putnis, A., Lanari, P., Austrheim, H. (2018). Textural and chemical evolution of pyroxene during hydration and deformation: a consequence of retrograde metamorphism. Lithos, 296-199, 245-264.
+
+
+- - - - -
+ LICENSE
+- - - - -
+
+XMapTools is distributed in an Double Regime: Academic and Commercial.
+
+In the Academic and Public Research World, XMapTools is distributed under the terms of the Scientific Software Open Source Academic For Free License. This License sets the program and the code GRATIS and Open Source, and grants Freedom to use, copy, study, modify and redistribute it. But these policies hold only within the Academic and Public Research world. Thus the Academic World can be reassured that the normal research academic policies in working with scientific software are granted by this license. And it goes even beyond GNU-GPL, since it explicitly sets GRATIS the software.
+
+On the other hand, we would like to reassure also the Commercial World. Indeed, the Scientific Software Open Source Academic For Free License IS NOT like other, commonly spread Open Source Free licenses, GNU-GPL or other. In the sense that the present License well keeps into account all the needs and the way of functioning of the Commercial and Profit Institutions World.
+
+Into this world, XMapTools program is going to be distributed under other Licenses, to be negotiated from case to case. In this case it is a paying code, and exclusiveness for a certain merceological sector, or even full exclusiveness can be agreed with commercial institutions. This protects commercial institutions investements on applied research lines using the XMapTools code against concurrential actions, a posteriori possible to concurrent commercial institutions for codes licensed under commonly spread Open Source Free licenses. We agree with the Commercial World that these licenses revealed not compatible with the ordinary way of functioning in the Commercial World.
+
+This is the reason why we choosed a different licence policy for XMapTools: to make Commercial Insitutions profit of the Basic Research ByProducts. And at the same time, to make the Basic Research benefit of the funding coming from the Commercial World, to finance the Basic Research itself.
+
+Please, if you are a commercial institution, take the time to read at least the Preamble of the Scientific Software Open Source Academic For Free License. And you will realize that this is exactly the policy and the philosophy that can work to conciliate your way of functioning and the normal behaviour of academic research. Such as everybody can profit of the exchange between the two worlds.
+

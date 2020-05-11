@@ -1,0 +1,16 @@
+!- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+!                                                                 !
+!                    XMAPTOOLS Variables File                     !
+!              Last update (06.05.2016),  Pierre Lanari           !
+!                                                                 !
+!- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+! 
+! Name / Code (matrix format, use .* ./ and .^)
+! EDIT WITH CAUTION (No empty line without the comment symbol (!)
+!
+! 
+XMg		Mg./(Mg+Fe)
+XMg_M1		Mg_M1./(Mg_M1+Fe_M1)
+!
+Yb/Gd		172Yb./157Gd
+!
